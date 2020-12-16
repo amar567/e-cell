@@ -1,0 +1,104 @@
+
+  body, html {
+    height: 100%;
+    overflow-x: hidden;-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+    width: 0px;
+    }
+
+  .parallax {
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .kolkata{
+    /* The image used */
+    background-image: url('hb.jpg');
+    opacity: 1;
+  }
+
+  .iiserk{
+    /* The image used */
+    background-image: url('ik.jpg');
+  }
+
+  .blur{
+    /* The image used */
+    background-image: url('blur.svg');
+    opacity: 1;
+  }
+
+  .hidden {
+    display:none;
+  }
+
+  .center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+  /* background image*/
+  .hero_img{
+
+  }
+
+  .pg_title{
+
+  }
+
+
+  @media only screen and (min-width: 767px) {
+    .hero_img{
+      width:55%;
+      position: absolute;
+      top: 0;
+      bottom:0;
+      left: 40%;
+      right: 0;
+      border-right: 6px solid white;
+      height: 100%;
+    }
+    .pg_title{
+      font-size: 5.2vw;
+      text-align: left;
+      font-weight: 900;
+      color: white;
+      font: Helvetica;
+      text-shadow: 2px 2px 3px #000000;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .hero_img{
+      width:45%;
+      margin: auto;
+      display: block;
+    }
+    .pg_title{
+      font-size: 7vw;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      font: Helvetica;
+    }
+  }
