@@ -32,6 +32,10 @@
     /* The image used */
     background-image: url('hb.jpg');
     opacity: 1;
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    transition: 0s linear;
+    transition-property: background-position;
   }
 
   .iiserk{
