@@ -40,8 +40,8 @@
 
   .blur{
     /* The image used */
-    background-image: url('blur.svg');
-    opacity: 1;
+    position: relative;
+    background: linear-gradient(178.91deg, rgba(255, 255, 255, 0) -8.15%, rgba(0, 6, 147, 0.47) 140.61%);
   }
 
   .hidden {
@@ -64,6 +64,21 @@
 
   .pg_title{
 
+  }
+
+  @media only screen and (min-width: 767px) {
+    .ss{
+      display:none;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .ls{
+      display:none;
+    }
+    .ss{
+      text-align: center;
+    }
   }
 
 
