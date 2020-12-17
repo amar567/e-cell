@@ -15,7 +15,7 @@
     }
 
   .parallax {
-    
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -186,4 +186,55 @@
 
   .vision{
     position:relative;
+  }
+
+  .mng_h2a{
+
+  }
+
+  .mng_h2b{
+
+  }
+
+  @media only screen and (min-width: 767px) {
+  .mng_h2c{
+    height: 105vh;
+  }
+  .mng_h2o{
+    height: 250vh;
+  }
+}
+
+  @media only screen and (max-width: 767px) {
+    .mng_h2c{
+      height: 160vh;
+    }
+    .mng_h2o{
+      height: 250vh;
+    }
+  }
+
+
+  /* events us section */
+
+  .events{
+    background-image: url('bg3.jpg');
+    opacity: 1;
+  }
+
+  .blur3{
+    /* The image used */
+    background-image: url('overlay3.svg');
+  }
+
+  .contact_us{
+    background-image: url('bg4.jpg');
+    opacity: 1;
+    height: 100vh;
+  }
+
+  .blur4{
+    /* The image used */
+    background-image: url('overlay4.svg');
+    height: 100vh;
   }
