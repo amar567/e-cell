@@ -215,6 +215,16 @@
   }
 
 
+  /* team */
+  .team{
+    background-image: url('bg5.png');
+    opacity: 1;
+  }
+
+  .blur4{
+    background-image: url('overlay2.svg');
+  }
+
   /* events us section */
 
   .events{
@@ -233,8 +243,93 @@
     height: 100vh;
   }
 
-  .blur4{
+  .blur5{
     /* The image used */
-    background-image: url('overlay4.svg');
+    background-image: url('overlay5.svg');
     height: 100vh;
+  }
+
+  .zoom1{
+    transform: scale(1,1);
+    -ms-transform: scale(1,1);
+  }
+  .zoom1:hover {
+    transform:scale(1.2,1.2);
+  }
+
+  .zoom2{
+    transform: scale(1,1);
+    -ms-transform: scale(1,1);
+  }
+  .zoom2:hover {
+    transform:scale(1.5,1.5);
+  }
+
+  .profile-grid{
+    padding:10vh; border-radius:10px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .card-container{
+    background-color:rgba(0,0,0,0.4);;border-radius:25px;height:60vh;
+  }
+  .card-upper{
+    height:35%;
+    border-radius:25px 25px 0px 0px;
+  }
+
+  .card-profile_pic{
+    height:120%;
+    width:120%;
+    position:relative;
+    left:-10%;
+    top:43%;
+  }
+  .card-lower{
+    height:65%;
+    border-radius:0px 0px 25px 25px;
+  }
+
+  .card-lower-spacer{
+    height:15vh
+  }
+
+  .center{
+    text-align:center;
+  }
+
+  .left{
+    text-align:left;
+  }
+
+  .right{
+    text-align:right;
+  }
+
+  .card-name{
+    font-size: 150%;
+    color: white;
+    opacity:0.8;
+  }
+
+  .card-subname{
+    color:white;
+    opacity:0.8;
+  }
+
+  .card-social-grid{
+    height:12vh;
+  }
+
+  .card-social-icons{
+    width:70%;
+    left:15%;
+    top:5%;
+    position:relative;
   }
