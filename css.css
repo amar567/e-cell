@@ -203,6 +203,21 @@
   .mng_h2o{
     height: 250vh;
   }
+  .zoom1{
+    transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  .zoom1:hover {
+    transform:scale(1.35);
+  }
+
+  .zoom2{
+    transform: scale(1,1);
+    -ms-transform: scale(1,1);
+  }
+  .zoom2:hover {
+    transform:scale(1.5,1.5);
+  }
 }
 
   @media only screen and (max-width: 767px) {
@@ -250,19 +265,19 @@
   }
 
   .zoom1{
-    transform: scale(1,1);
-    -ms-transform: scale(1,1);
+    transform: scale(1);
+    -ms-transform: scale(1);
   }
   .zoom1:hover {
-    transform:scale(1.2,1.2);
+    transform:scale(1);
   }
 
   .zoom2{
-    transform: scale(1,1);
-    -ms-transform: scale(1,1);
+    transform: scale(1);
+    -ms-transform: scale(1);
   }
   .zoom2:hover {
-    transform:scale(1.5,1.5);
+    transform:scale(1);
   }
 
   .profile-grid{
