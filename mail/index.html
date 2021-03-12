@@ -34,11 +34,8 @@
           border-top: 0px solid #96a8fc;
           border-bottom: 0px solid #96a8fc;
           display: block;
-          position:absolute;
-          top:540px;
-          left: 50%;
-          -ms-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
+          position:relative;
+          text-align:center;
           background: #FFC700;
           padding: 8px 30px;
           width:260px;
@@ -56,11 +53,11 @@
           width:400px;
         }
 
-        .footer{
+        /* .footer{
           height:10px;
           position:relative;
           top:30px;
-        }
+        } */
 
         @media only screen and (max-width: 400px) {
           .cont{
@@ -79,22 +76,18 @@
             border-top: 0px solid #96a8fc;
             border-bottom: 0px solid #96a8fc;
             display: block;
-            position:absolute;
-            top:68%;
-            left: 50%;
-            -ms-transform: translate(-50%, 0%);
-            transform: translate(-50%, 0%);
+            position:relative;
             background: #FFC700;
             padding: 8px 30px;
             width:60%;
             text-align:center;
           }
 
-          .footer{
+          /* .footer{
             position:relative;
             top:10px;
             height:50px;
-          }
+          } */
         }
 
         @media only screen and (max-width: 320px){
@@ -109,23 +102,21 @@
   </head>
   <body>
     <div class="center" >
-      <div class="center cont" style="background-color:#421476;">
+      <div class="center cont" style="background-color:#421476;text-align:center;">
         <img src="https://amardeephk.xyz/e-cell/mail/bg.png" alt="" style="width:100%;">
         <p>
           <a target="_blank" href="https://amardeephk.xyz/redirect/" >
-            <button type="button" name="button" style="border-radius:50px;">JOIN NOW</button>
+            <button class="center" type="button" name="button" style="border-radius:50px;">JOIN NOW</button>
           </a>
         </p>
-        <div class="center footer" style="text-align:center;">
-
-        </div>
+        <br>
       </div>
-      <div class="cont center" style="height:40px;background-color:#3A1267;position:">
-        <font class="" style="color:white;text-align:center">
-          <div class="" style="height:10px;"></div>
-          <p ><a href="#" style="color:white;">www.ecelliiserk.com/</a></p>
-        </font>
-      </div>
+    </div>
+    <div class="cont center" style="height:40px;background-color:#3A1267;position:relative;">
+      <font class="" style="color:white;text-align:center">
+        <div class="" style="height:5px;"></div>
+        <p ><a href="#" style="color:white;">www.ecelliiserk.com/</a></p>
+      </font>
     </div>
   </body>
 </html>
